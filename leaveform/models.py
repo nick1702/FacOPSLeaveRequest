@@ -4,7 +4,7 @@ from django.urls import reverse
 
 
 class SubmissionObject(models.Model):
-    """Abstraact Submission Object storing individual submission data"""
+    """Abstract Submission Object storing individual submission data"""
 
     status = models.CharField(max_length=200)
 
